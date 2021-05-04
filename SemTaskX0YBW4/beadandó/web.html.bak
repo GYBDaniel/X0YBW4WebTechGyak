@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>auto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #3300cc;
+  color: white;
+}
+
+/*header méret*/
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #009933;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+/*home gomb színe*/
+.navbar a.right {
+  background-color: #000000;
+  color: white;
+}
+
+ /*jobb oldal*/
+.row {  
+  display: -ms-flexbox;  
+  display: flex;
+  -ms-flex-wrap: wrap;  
+  flex-wrap: wrap;
+}
+
+/*bal oldal szine*/
+ .side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* lábléc */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="header">
+  <h1>WEB-es technológiák</h1>
+  
+</div>
+
+<div class="navbar">
+  <a href="SemTaskX0YBW4.html" class="active">Főoldal</a>
+  <a href="auto.html">Autóelektronika</a>
+  <a href="vedelem.html">Villamos védelmek</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>WEB-es technológiák</h2>
+    
+      
+    <img src="kepek/a.jfif" height="200" border="0" alt." style="float:center">
+
+   
+    <div class="('kepek/road.fif')" style="height:60px;"></div><br>
+    <div class="('kepek/road.jfif')" style="height:60px;"></div><br>
+    <div class="" style="height:60px;"></div>
+
+  </div>
+
+
+
+  <div class="main">
+    <h2>Tárgy leírás</h2>
+
+	 <font size="4"; color="">Tantárgy feladata és célja: 
+A tárgy keretében a hallgatók megismerkednek a WEB‐es fejlesztési elvekkel, modellekel módszerekkel 
+
+ </font>
+
+	<br><br>
+
+	<font size="4"; color="">
+	 <strong><em>WEB-es technológiák</em></strong> kötelező Irodalom.</font>
+
+	<br><br> 
+	
+	 
+	<ul> 
+ 
+
+		<li>Laura Thomson, Luke Welling: PHP és MySQL webfejlesztőknek, Perfect, 2013. 
+		<li>Mark Pilgrim: HTML5: Up and Running, O'REILLY, 2013. 
+		<li>Virginia DeBolt: HTML és CSS. Webszerkesztés stílusosan. Kiskapu Kft, 2005. 
+		<li>Gál Tibor: Web programozás, Műegyetemi kiadó, 2006. 
+
+	</ul> 
+
+	<br><br>
+	
+
+
+	</div>
+	</div>
+
+	<div class="footer">
+		<font size="" color="black">&copy; Minden jog fenntartva! <br>
+		Gépészmérnöki és Informatikai Kar<br>
+		Miskolci egyetem, 2021<br>
+		</font>
+		
+		</div>
+</body>
+</html>

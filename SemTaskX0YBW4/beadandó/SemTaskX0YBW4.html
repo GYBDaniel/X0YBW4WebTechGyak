@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/*a test alapértelmezése*/
+body {
+  font-family: font-family:tahoma; font-family:12pt;
+  margin: 0;
+  background-image: url('kepek/hatter.jfif');
+}
+/*a fej alapértelmezése*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('kepek/hatter.jfif');
+}
+/*doboz méretezés*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+/*oszlopok*/
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*árnyékolás*/
+.card {
+  box-shadow: 6px 6px 6px 6px;
+  margin: 10px;
+}
+
+
+
+
+.clearfix::after, .row::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 8px;
+  background-color: #b7b7ff;
+  text-align: center;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #33ff00;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background-image: url('kepek/hatter.jfif');
+}
+</style>
+
+</head>
+
+<body>
+
+
+<table> 
+
+
+<div class="header">
+<font size="6pt"; color="#ff0000">
+
+  <b>Üdvözllek a honlapomon!</b>
+</font>
+ <br>
+<font size="10pt"; color="#ff9900">
+ <em>Ez a weblap a webtech beadandóm!</em>
+ <br>
+</div>
+</font>
+
+
+<h2 style="text-align:center; color:#ffff00"><u>Villamosmérnöki tantárgyak</u></h2>
+<div class="row">
+<div class="column">
+    <div class="card">
+      <img src="kepek/auto.jfif"style="width:100%">
+      <div class="clearfix">
+        <h2 style="color:white">Autoelektronika</h2> 
+ 
+        <p><button class="button">
+
+		<a href="auto.html" target="_self">
+		<font style="color:black">Bevezetés az au.-el.-ba</font>
+		</a>
+
+		</button></p>
+
+      </div>
+    </div>
+  </div>
+
+   
+  <div class="column">
+    <div class="card">
+      <img src="kepek/ved.jfif" style="width:100%">
+      <div class="clearfix">
+       <h2 style="color:white">Villamos védelmek és autómatikák</h2>   
+        <p><button class="button">
+		<a href="vedelem.html" target="_self">
+		<font style="color:black">Villamos védelmek és automatikák</font>
+		</a>
+        </button></p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="kepek/web.png" style="width:100%">
+      <div class="clearfix">
+        <h2 style="color:white">WEB-es technológiák</h2>
+         
+        <p><button class="button">
+		<a href="web.html" target="_self">
+			<font style="color:black">WEB-es technológiák</font>
+			</a>
+
+        </button></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br>
+	
+	<div class="footer">
+		<font size="4" color="white">&copy; Minden jog fenntartva! <br>
+		Gépészmérnöki és Informatikai Kar<br>
+		Miskolci egyetem, 2021<br>
+		</font>
+		
+		</div>
+
+</table>
+
+</body>
+</html>

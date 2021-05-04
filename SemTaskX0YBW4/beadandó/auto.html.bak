@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>auto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*doboz méretezés*/
+* {
+  box-sizing: border-box;
+}
+
+/*betűtípus bekezdés*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*header kitöltése szövegigazítás háttér,*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #3300cc;
+}
+
+/*header méret*/
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #009933;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+/*home gomb színe*/
+.navbar a.right {
+  background-color: #000000;
+  color: white;
+}
+
+ /*jobb oldal*/
+.row {  
+  display: -ms-flexbox;  
+  display: flex;
+  -ms-flex-wrap: wrap;  
+  flex-wrap: wrap;
+}
+
+/*bal oldal szine*/
+ .side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* lábléc */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="header">
+  <h1>Bevezetés az autóelektronikába</h1>
+  
+</div>
+
+<div class="navbar">
+  <a href="SemTaskX0YBW4.html" class="active">Főoldal</a>
+  <a href="vedelem.html">Villamos védelmek</a>
+  <a href="web.html">WEB-es tech.</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>Autóelektronika</h2>
+    
+    <img src="kepek/auto.jfif" height="200" border="0" alt." style="float:center">
+
+   
+  
+  </div>
+
+
+
+  <div class="main">
+    <h2>Tárgy leírás</h2>
+
+
+    <font size="4"; color="">Tantárgy feladata és célja: 
+Megismertetni a személygépkocsi villamos berendezéseinek működési alapjait tekintettel az elektronikai 
+eszközök széleskörű alkalmazására. A téma komplexitása miatt a tananyag ketté van osztva. Itt az első rész 
+kerül bemutatásra. 
+ </font>
+
+	<br><br>
+
+	<font size="4"; color="">
+	 <strong><em>Bevezetés az autóelektronikába tantárgy</em></strong> ajánlott Irodalom.</font>
+
+	<br><br> 
+	
+	 
+	<ul> 
+ 
+		<li>1. Bakos István, Járművillamosság, Műszaki Könyvkiadó, Budapest,1979.
+		<li>2. Huszti Tibor, A gépjármű villamos hálózata és az akkumulátorok, Autoverso, Budapest, 1996 
+		<li>3. Dr. Frank Tibor, Dr. Hodvogner László, Dr. Kelecsényi István, Autóelektronikai ismeretek, Műszaki 
+Könyvkiadó, Budapest, 2004, ISBN 963‐16‐0088‐2.
+		<li>4. Martynn Randall, Autóvillamosság mindenkinek, Maróti Könyvkereskedés és Könyvkiadó Kft., Budapest, 
+2011, ISBN 978‐963‐9945‐01‐2.
+		<li>5.Jörg Schauffele, Thomas Zurawka, Automotive Software Engineering, Vieweg, Wiesbaden, 2004. 
+
+	</ul> 
+	<br><br>
+	</div>
+	</div>
+
+	<div class="footer">
+		<font size="" color="black">&copy; Minden jog fenntartva! <br>
+		Gépészmérnöki és Informatikai Kar<br>
+		Miskolci egyetem, 2021<br>
+		</font>
+		</div>
+</body>
+</html>
